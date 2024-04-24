@@ -1,0 +1,102 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Login form styles */
+#loginContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#loginContainer input[type="text"],
+#loginContainer input[type="password"],
+#loginContainer button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+#loginContainer input[type="text"]:focus,
+#loginContainer input[type="password"]:focus {
+    outline: none;
+    border-color: #66afe9;
+}
+
+#loginButton {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#loginButton:hover {
+    background-color: #286090;
+}
+
+/* Hide elements initially */
+.hidden {
+    display: none;
+}
+
+/* Exam container styles */
+#examContainer {
+    text-align: left;
+}
+
+#questionContainer p {
+    font-weight: bold;
+}
+
+#questionContainer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#questionContainer li {
+    margin-bottom: 10px;
+}
+
+#submitButton, #retakeButton {
+    margin-top: 20px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submitButton:hover, #retakeButton:hover {
+    background-color: #286090;
+}
